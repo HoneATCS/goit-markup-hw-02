@@ -1,0 +1,51 @@
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.cart-name:focus;
+.cart-name{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.but{
+position: absolute;
+width: 112px;
+height: 38px;
+left: 726px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.but:focus{
+background-color: #2196F3;
+}
+
+.text-cart{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.section-cards{
+background: #F5F5F5;
+}

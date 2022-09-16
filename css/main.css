@@ -1,0 +1,249 @@
+:root{
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18a0fb;
+    --primary-white-color: #ffffff;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body{
+background-color: var(--primary-white-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+letter-spacing: 0.02em;
+font-size: 14px;
+line-height: 1.14;
+color: #212121;
+list-style: none;
+text-decoration: none;
+}
+
+h1,h2,h3{
+    font-family: Roboto;
+}
+
+.body .header{
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+background-color: var(--primary-white-color);
+}
+
+.logo:focus,
+.logo {
+    color: var(--title-text-color);
+    list-style: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+  
+.logos {
+    color: var(--accent-color);
+    list-style: none;
+    -nev-accent: #2196F3;
+}
+
+.link-portfolio,
+.link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: #212121;
+list-style: none;
+text-decoration: none;
+}
+
+li{
+text-decoration: none;
+list-style: none; 
+}
+
+.site-nav-list .link-portfolio:hover,
+.site-nav-list .link-portfolio:focus,
+.site-nav-list .link:hover,
+.site-nav-list .link:focus{
+    color: var(--accent-color);
+}
+
+.link-mail:focus,
+.link-mail{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.site-nav-list{
+color: var(--title-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+/*
+.hero{
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+
+}
+*/
+.hero .h-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+}
+
+.button-primary {
+position: absolute;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+margin: auto;
+}
+
+.skills .title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.skills .skil{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.work .working{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team{
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1446px;
+background: #F5F4FA;
+}
+.team-title:focus,
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+.person:focus
+.person{
+width: 270px;
+height: 368px;
+left: 215px;
+top: 1632px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+    
+}
+
+.link:focus
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+.person-work:focus
+.person-work{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.footer{
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+background: #2F303A;
+}
+
+.footer > .logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+list-style: none;
+text-decoration: none;
+}
+
+.footer-adres{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+list-style: none;
+text-decoration: none;
+}
+
+.footer-mail,
+.footer-tel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72; 
+letter-spacing: 0.03em;  
+color: rgba(255, 255, 255, 0.6);
+list-style: none;
+text-decoration: none;
+    
+}
