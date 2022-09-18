@@ -135,6 +135,7 @@ li {
 .team {
   background: var(--bg-team);
 }
+
 .team-title:focus,
 .team-title {
   font-weight: 700;
@@ -157,6 +158,7 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -198,6 +200,7 @@ li {
 
 .carts {
   text-decoration: none;
+  background-color: var(--primary-white-color);
 }
 
 .cart-name {
