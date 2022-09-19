@@ -49,22 +49,32 @@ li {
   color: var(--accent-color);
 }
 
-.link:hover,
-.link-s:hover,
+.linktel:hover,
+.linktel-s:hover,
 .link-mail:hover,
 .link-mail:focus,
-.link:focus {
+.link:hover,
+.link:focus,
+.link-p:hover,
+.link-p:focus {
   color: var(--accent-color);
   text-decoration: none;
 }
 
 .link-p,
 .link-s,
-.link-mail,
 .link {
   color: var(--title-text-color);
-  font-family: "Roboto";
-  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-mail,
+.linktel {
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -104,7 +114,7 @@ li {
   border-radius: 4px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  cursor: pointer;
+  border-color: transparent;
 }
 
 .skills .title {
@@ -153,6 +163,9 @@ li {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.person {
+  background-color: #ffffff;
+}
 
 .person-work {
   font-weight: 400;
@@ -187,15 +200,12 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
   letter-spacing: 0.03em;
-  width: 112px;
-  height: 38px;
-  left: 726px;
-  top: 174px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
   text-decoration: none;
+  border-color: transparent;
 }
 
 .carts {
@@ -214,7 +224,6 @@ li {
 
 .carts .text-cart {
   font-family: var(--font-family);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -259,9 +268,7 @@ li {
 
 .list-mail,
 .list-tel {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
