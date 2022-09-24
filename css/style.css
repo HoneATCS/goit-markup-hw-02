@@ -53,8 +53,8 @@ li {
 .linktel-s:hover,
 .link-mail:hover,
 .link-mail:focus,
-.link:hover,
-.link:focus,
+.site-nav-list > .link:hover,
+.site-nav-list > .link:focus,
 .link-p:hover,
 .link-p:focus {
   color: var(--accent-color);
@@ -284,6 +284,13 @@ li {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   text-decoration: none;
+}
+
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus{
+  color: var(--accent-color)
 }
 
 .footer-mail,
